@@ -1,7 +1,7 @@
 # opening a file and reading the data
-file = open("file.txt","r");
-data = file.read()
-file.close();
+myfile = open("file.txt","r");
+data = myfile.read()
+myfile.close();
 
 characters = 0
 numbers = 0
